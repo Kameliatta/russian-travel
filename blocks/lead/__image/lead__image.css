@@ -3,7 +3,7 @@
   display: flex;
   width: 100%;
   min-height: 580px;
-  background: url(../../../images/kalegin-michail.png);
+  background: url("../../../images/kalegin-michail.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
