@@ -1,9 +1,14 @@
 .footer__links {
+  margin: 0;
   padding: 0;
   display: flex;
   list-style: none;
   position: relative;
 }
-.footer__links:last-child {
-  margin: 0;
+@media screen and (max-width: 320px) {
+  .footer__links {
+    flex-direction: column;
+    align-self: flex-start;
+    margin-bottom: 16px;
+  }
 }

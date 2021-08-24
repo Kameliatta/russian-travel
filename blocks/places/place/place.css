@@ -1,7 +1,33 @@
 .place {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  width: 928px;
-  height: 640px;
+  max-width: 984px;
+  margin-bottom: 80px;
+  gap: 48px 40px;
+}
+.place:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+    max-width: 928px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 48px 28px;
+    max-width: 720px;
+    margin-bottom: 73px;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 50px;
+  }
 }

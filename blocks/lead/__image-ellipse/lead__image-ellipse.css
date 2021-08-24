@@ -1,7 +1,23 @@
 .lead__image-ellipse {
-  margin-left: auto;
-  margin-right: auto;
+  height: 263px;
+  margin-top: 90px;
   width: 100%;
-  max-height: 248px;
-  margin-top: 85px;
+}
+@media screen and (max-width: 1024px) {
+  .lead__image-ellipse {
+    height: 248px;
+    margin-top: 85px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead__image-ellipse {
+    height: 205px;
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lead__image-ellipse {
+    height: 85.53px;
+    margin-top: 29px;
+  }
 }
