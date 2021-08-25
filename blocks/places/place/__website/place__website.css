@@ -3,7 +3,7 @@
   grid-column: 2;
   align-self: flex-end;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .place__website {
     margin-left: 16px;
     align-self: flex-start;
