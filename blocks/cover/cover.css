@@ -1,6 +1,6 @@
 .cover {
   margin: 0 auto 0;
-  background: url("../../../images/cover__background.jpg") no-repeat;
+  background: url("../../images/cover__background.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
