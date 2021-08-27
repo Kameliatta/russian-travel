@@ -2,19 +2,4 @@
   margin: 0;
   display: flex;
   width: 100%;
-  min-height: 580px;
-  background: url("../../../images/kalegin-michail.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-@media screen and (max-width: 768px) {
-  .lead__image {
-    min-height: 480px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .lead__image {
-    min-height: 200px;
-  }
 }
