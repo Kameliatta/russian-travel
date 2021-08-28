@@ -12,13 +12,17 @@
   position: relative;
   z-index: 1;
 }
-
+@media screen and (max-width: 520px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 114%;
+    margin: 0 auto;
+    max-width: 288px;
+  }
+}
 @media screen and (max-width: 425px) {
   .cover__subtitle {
-    font-size: 0.875em;
-    line-height: 114%;
     margin: 0 16px 0;
     min-height: 48px;
-    max-width: 266px;
   }
 }

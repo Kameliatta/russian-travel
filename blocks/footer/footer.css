@@ -15,10 +15,10 @@
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
-    padding: 0 24px 0;
+    padding: 0 3.34vw 0;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .footer {
     padding: 0;
     margin: 64px 0 24px;

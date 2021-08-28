@@ -11,10 +11,10 @@
 }
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    font-size: 2.09vw;
+    font-size: 16px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 520px) {
   .place__paragraph {
     font-size: 16px;
     margin-left: 16px;
