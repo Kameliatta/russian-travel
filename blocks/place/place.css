@@ -21,7 +21,7 @@
     grid-template-columns: 1fr;
   }
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
   .place {
     display: flex;
     flex-direction: column;

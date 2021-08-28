@@ -10,7 +10,7 @@
   opacity: .8;
   transition: opacity .7s;
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
   .place__website-link {
     font-size: 16px;
   }
