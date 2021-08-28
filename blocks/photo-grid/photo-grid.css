@@ -20,10 +20,12 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
     gap: 16px;
+    margin: 0 24px 0;
   }
 }
 @media screen and (max-width: 476px) {
   .photo-grid {
+    margin: 0 auto;
     max-width: 388px;
     grid-template-columns: 1fr;
     gap: 12px;
